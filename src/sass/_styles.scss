@@ -1,0 +1,32 @@
+.search-form-container {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.search-form-input {
+  text-align: center;
+  border-radius: 7px;
+  border: none;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.load-more-btn {
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: blueviolet;
+    color: white;
+  }
+}
+
+.is-hidden {
+  display: none;
+}
