@@ -22,7 +22,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    background-color: blueviolet;
+    background-color: rgb(38, 208, 238);
     color: white;
   }
 }
@@ -80,6 +80,18 @@
     align-items: center;
   }
   &-item:not(:last-child) {
-    margin-right: 15px;
+    margin-right: 35px;
   }
+}
+
+.stats-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: rgb(38, 208, 238);
+  }
+}
+
+.material-icons {
+  margin-right: 5px;
 }
