@@ -72,7 +72,7 @@ function scrollToRenderedMarkup() {
 function openModal(event) {
   if (event.target.classList.contains('image')) {
     const instance = basicLightbox.create(
-      `<img src=${event.target.getAttribute('data-src')} width="1000" height="800">`,
+      `<img src=${event.target.getAttribute('data-src')} width="" height="">`,
     );
     instance.show();
     basicLightbox.visible();
