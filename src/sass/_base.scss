@@ -1,5 +1,10 @@
 body {
-  background-color: rgb(73, 67, 67);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(67, 195, 142, 0.4150035014005602) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 h1,
